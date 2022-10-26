@@ -11,18 +11,27 @@ body {
 }
 
 header {
-    background: lightcyan;
+    background: rgb(255, 255, 255);
     display: grid;
-    /* grid-template-rows: px for each row */
+    grid-template-rows: 40px 36px 80px;
 }
 
 main {
-    background: lightgoldenrodyellow;
+    background: rgb(255, 255, 255);
     display: grid;
-    /* grid grid-template-columns: fr/px for each row ; */
+    grid-template-rows: 111px 342px 47px 162px;
 }
 
 #categories {
     display: flex;
     /* gap property to space out*/
+}
+
+#header-top {
+    color: white;
+    background: rgb(36, 35, 35);
+}
+
+#header-message {
+    background: rgb(69, 179, 80);
 }
